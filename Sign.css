@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container{
+    overflow-y: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+.logo{
+    color:#6443FF ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "montserrat";
+    font-weight:700;
+    text-transform: uppercase;
+}
+.logoset{
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.line{
+    width: 150px ;
+    border: #6443FF 1px solid;
+}
+.inner_content{
+    display: flex;
+    align-items: center;
+}
+.img_part{
+    height: 100vh;
+    flex-basis:60%;
+    box-shadow: 10px 5px 5px red;
+    background-image: url("/images/carinsu.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.form_part{
+    flex-basis: 40%;
+    display: flex;
+    height: 80vh;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.form{
+    display: flex;
+    font-family: "nunito sans";
+    flex-direction: column;
+    flex-basis: 50%;
+    width: 60%;
+    color: #525252;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+
+    flex-direction: column;
+    height: 70px;
+    width:75%;
+    display: flex;
+    overflow: hidden ;
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 75%;
+    font-size: 13px;
+
+}
+.inp{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.h2{
+
+    font-size: 30px;
+    font-weight: 700;
+}
+.p{
+    font-size: 13px;
+}
+a{
+    color: #6443FF;
+    text-decoration: none;
+}
+label{
+    color: #828282;
+    font-size: 13px;
+    text-transform: capitalize;
+}
+.inp-txt{
+    padding: 10px;
+    border: 1px solid rgba(100, 67, 255, .5);
+    border-radius: 5px;
+}
+.inp a{
+    text-align: right;
+    text-transform: capitalize;
+}
+.pr{
+    color: #828282;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+span a{
+    text-transform: capitalize;
+    padding-left: 5px;
+}
+.chk{
+    accent-color: #6443FF;
+}
+.btn{
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #6443FF;
+    border-radius: 5px;
+    background-color: #6443FF;
+    color: #ffffff;
+}
+.turnout{
+    font-family: "nunito sans";
+}
+
